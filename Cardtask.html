@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Riot&family=Rajdhani:wght@300;400;500;600;700&family=Smooch+Sans:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Smooch+Sans:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+    body{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        background-color: lightblue;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap:90px;
+        align-content: center;
+        padding:20px;
+        /* flex-direction: column;
+       
+        gap: 2px; */
+    }
+    section{
+        width:500px;
+        height:40%;
+        border:2px solid (0, 0, 0, 0.553);
+        background-color:rgba(255, 160, 122, 0.674);
+        /* margin:10% auto; */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        background-image: url(./images/card3.jpg);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.584);
+        padding:20px;
+        transition: all .6s ease-in-out;
+   
+        /* gap: 20%; */
+    }   
+
+    @media (max-width:480px){
+        section{
+        width:300px;
+        flex-direction: column;
+
+        }
+    }
+
+.b{
+        border:3px solid black;
+        width:150px;
+        height:150px;
+        border-radius: 50%;
+        
+}
+/* .a{
+    margin:20px;
+}
+.d{
+    padding: 10px;
+}
+.c{
+    margin:50px 30px;
+} */
+span{
+    padding:10px;
+}
+section:hover{
+    /* background-color: lightgoldenrodyellow; */
+    border: 2px solid rgba(0, 0, 0, 0.504);
+    transform: scale(1.1);
+    
+}
+/* section:nth-of-type(3){
+    background-color: lightpink;
+    border: 2px;
+} */
+h3,h4{
+    font-family: "Rajdhani", sans-serif;
+}
+
+</style>
+<body>
+    <section>      
+        <figure class="a">
+            <img  class="b" src="./images/businessman-profileavif.avif" alt="logo" width="30px" >
+        </figure>
+        <article class="d">
+            <h1>Pankaj Patil</h1>
+            <h3>Businessman</h3>
+            <h4><span class="material-symbols-outlined">
+                location_on
+                </span>virar</h4>
+        </article>
+        <div class="c">
+            <span class="material-symbols-outlined">
+                mail
+                </span>
+                <span class="material-symbols-outlined">
+                    chat
+                    </span>
+                    <span class="material-symbols-outlined">
+                        link
+                        </span>
+                    
+        </div>
+    </section>
+  <section>
+        <figure class="a">
+            <img  class="b" src="./images/man-profile.avif" alt="logo" width="30px" >
+        </figure>
+        <article class="d">
+            <h1>Dev Salunke</h1>
+            <h3>Web Developer</h3>
+            <h4><span class="material-symbols-outlined">
+                location_on
+                </span>virar</h4>
+        </article>
+        <div class="c">
+            <span class="material-symbols-outlined">
+                mail
+                </span>
+                <span class="material-symbols-outlined">
+                    chat
+                    </span>
+                    <span class="material-symbols-outlined">
+                        link
+                        </span>
+                    
+        </div>
+    </section>
+    <section>
+        <figure class="a">
+            <img  class="b" src="./images/woman-profile.avif" alt="logo" width="30px" >
+        </figure>
+        <article class="d">
+            <h1>Avani Salunke</h1>
+            <h3>Web Developer</h3>
+            <h4><span class="material-symbols-outlined">
+                location_on
+                </span>virar</h4>
+        </article>
+        <div class="c">
+            <span class="material-symbols-outlined">
+                mail
+                </span>
+                <span class="material-symbols-outlined">
+                    chat
+                    </span>
+                    <span class="material-symbols-outlined">
+                        link
+                        </span>
+                    
+        </div>
+    </section>
+   
+</body>
+</html>
